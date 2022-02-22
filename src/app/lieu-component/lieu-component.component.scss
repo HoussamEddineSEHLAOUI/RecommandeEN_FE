@@ -1,0 +1,65 @@
+.lieu {
+  width: 400px;
+  height: 340px;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: rgb(206, 206, 206);
+  margin: 15px;
+}
+.imagelieu {
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.headerLieu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9px;
+  margin-right: 12px;
+  height: 29px;
+}
+.titleLieu {
+  font-size: 18px;
+}
+.ratingLieu {
+  font-size: 18px;
+}
+.descriptionLieu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9px;
+  margin-right: 12px;
+}
+.typeLieu {
+  cursor: pointer;
+}
+.distLieu {
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+}
+.close {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(185, 185, 185, 0.479);
+  position: relative;
+  top: -290px;
+  right: -370px;
+  cursor: pointer;
+}
+.likeOn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 3s;
+}
+
+.likeOff {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 3s;
+}

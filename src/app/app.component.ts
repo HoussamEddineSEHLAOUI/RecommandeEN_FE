@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recommandation_lieu_v0';
+  idLieu ='02devlop2022';
 }

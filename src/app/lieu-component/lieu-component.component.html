@@ -1,0 +1,20 @@
+<div class="lieu" 
+    
+    (mouseover)="onMouseHover()"
+    (mouseout)="onMouseOut()"
+    >
+    <div (click)="onClickLieu()">
+        <img src="../../assets/lieu.jpg" alt="" class="imagelieu">
+        <div class="headerLieu">
+            <p class="titleLieu">Le Chalet de Pierres</p>
+            <p class="ratingLieu"><img src="../../assets/star.png" alt="" class="star"> 5</p>
+        </div>
+        <div class="descriptionLieu">
+            <p class="typeLieu">Restaurant</p>
+            <p class="distLieu">(à 2.12 Km)</p>
+        </div>
+    </div>
+    <img src="../../assets/cancel.png" alt="" class="close" (click)="onClickClose()">
+    <img *ngIf="isLike" src="../../assets/heart.png" alt="" class="likeOn" (click)="setLikeBtn()">
+    <img *ngIf="!isLike" src="../../assets/love.png" alt="" class="likeOff" (click)="setLikeBtn()">
+</div>
