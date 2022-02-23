@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./like-lieu.component.scss']
 })
 export class LikeLieuComponent implements OnInit {
+  idLieu ='02devlop2022';
 
   constructor() { }
 

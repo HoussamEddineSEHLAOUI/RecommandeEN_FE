@@ -35,17 +35,21 @@ export class LieuComponentComponent implements OnInit {
   }
 
   onMouseHover():void {
-    //console.log("user hover on : [ "+this.idLieu+" ] ");
+    console.log("user hover on : [ "+this.idLieu+" ] ");
     this.setIsHoverOnLieu(true);
   }
 
   onMouseOut():void {
-    //console.log("user onMouseOut on : [ "+this.idLieu+" ] ");
+    console.log("user onMouseOut on : [ "+this.idLieu+" ] ");
     this.setIsHoverOnLieu(false);
   }
 
   timeHoverOnLieu(): void{
-
+    let i =0 ;
+    while(this.isHoverOnLieu){
+      i=i+1;
+    }
+    console.log("time :"+i);
   }
  
 
